@@ -5,7 +5,6 @@ Dataset used for experiments related to 2D and 3D Polylla meshes, such as volume
 Additional libraries include NumPy for data manipulation and meshio for printing meshes to an OFF file.
 
 
-
 ## 2D
 
 The random and Poisson meshes were created with **Scipy**, Uniform is self-created , and Shewchuk's Triangle with **Triangle**.
@@ -14,7 +13,7 @@ For the visualization of the meshes, **Matplotlib** was used.
 
 | Random               | Poisson              | Uniform              | Shewchuk's Triangle  |
 | -------------------- | -------------------- | -------------------- | -------------------- |
-| ![Random](random.png) | ![Poisson](poisson.png) | ![Uniform](Uniform.png) | ![Shewchuk's Triangle](TriangleMesh.png) |
+| ![Random](images/random.png) | ![Poisson](images/poisson.png) | ![Uniform](images/Uniform.png) | ![Shewchuk's Triangle](images/TriangleMesh.png) |
 
 
 ## En 3D 
@@ -25,4 +24,4 @@ For the visualization of the meshes, **pyVista** was used.
 
 | Random            | Poisson              | Uniform               | Tetgen               |
 | ----------------- | -------------------- | --------------------- | -------------------- |
-| ![Random](3dRandom.png) | ![Poisson](3Dpoisson.png) | ![Uniform](3Duniform.png) | ![Tetgen](Tetgen.png) |
+| ![Random](images/3dRandom.png) | ![Poisson](images/3Dpoisson.png) | ![Uniform](images/3Duniform.png) | ![Tetgen](images/Tetgen.png) |
